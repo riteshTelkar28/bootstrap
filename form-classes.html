@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>form</title>
+    <script src="bootstrap-3.3.7-dist/js/jquery-3.7.1.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <style>
+        div{
+            height: auto;
+            width: 50%;
+            border: 2px solid black;
+            margin: auto;
+            padding: 20px;
+        }
+        input,select,button,textarea{
+            margin: 5px;
+        }
+    </style>
+</head> 
+<body >
+    <center><h1>Form class example</h1></center>
+    <div>
+        <form action="" class="form-group">
+            <input class="form-control" type="text" placeholder="enter username">
+            <input class="form-control" type="email" placeholder="enter email">
+            <input class="form-control" type="password" placeholder="enter password">
+            <input class="radio-inline" type="radio" name="gender" id="male">Male
+            <input class="radio-inline" type="radio" name="gender" id="female">Female
+            <select class="form-control" name="subject" id="subject">
+                <option value="">Select Subject</option>
+                <option value="c">C language</option>
+                <option value="c++">C++ language</option>
+            </select>
+            <textarea class="form-control" cols="30"  placeholder="enter address"></textarea>
+            <button class="btn-success btn-block">Register</button>
+            <button class="btn-danger btn-block">cancel</button>
+        </form>
+    </div>
+</body>
+</html>
