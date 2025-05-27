@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f8fa;
+    color: #333;
+}
+
+/* Header Table */
+table {
+    border-collapse: collapse;
+}
+
+table[bgcolor="whitesmoke"] {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table[bgcolor="whitesmoke"] td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 15px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+/* Categories Row */
+table[bgcolor="whitesmoke"] tr[bgcolor="black"] td {
+    border-right: 1px solid #333;
+}
+
+table[bgcolor="whitesmoke"] tr[bgcolor="black"] td:last-child {
+    border-right: none;
+}
+
+/* Form Styles */
+form {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form table {
+    width: 100%;
+}
+
+form table td {
+    padding: 10px 15px;
+}
+
+form table input[type="text"],
+form table input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form table input[type="submit"],
+form table input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+}
+
+form table input[type="submit"] {
+    background-color: #28a745;
+}
+
+form table input[type="reset"] {
+    background-color: #dc3545;
+}
+
+form table input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+form table input[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+/* Center Footer Link */
+form h5 a {
+    color: #007bff;
+}
+
+form h5 a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table[bgcolor="whitesmoke"] td {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    form {
+        margin: 20px;
+        padding: 15px;
+    }
+}
+
